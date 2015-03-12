@@ -1,0 +1,18 @@
+package{
+  public Class Sheet{
+    
+    private var _list:Array;
+    
+    //构造函数
+    public function Sheet(){
+    
+    }
+    
+    public function set list(value:Array):void{
+      _list = value;
+    }
+    public function get list():Array{
+      return _list;
+    }
+  }
+}
